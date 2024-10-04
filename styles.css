@@ -83,6 +83,7 @@ button:hover {
 .hero .container {
   padding: 96px 20px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 60px;
 }
@@ -91,6 +92,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1 1 420px;
 }
 
 .hero h1 {
@@ -99,11 +101,13 @@ button:hover {
   margin: 0;
 }
 
+.hero-img-holder {
+  flex: 1 1 40%;
+}
+
 .hero-img {
-  width: 50%;
+  width: 100%;
   height: 100%;
-  max-width: 640px;
-  flex: 1 0 auto;
 }
 
 .hero p {
