@@ -25,9 +25,27 @@ a {
   color: inherit;
 }
 
+p {
+  line-height: 1.5;
+}
+
+button {
+  background-color: #e06c2e;
+  border-radius: 4px;
+  padding: 12px 32px;
+  color: #f9faf8;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #b75019;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
+  padding: 16px 20px;
 }
 
 .header,
@@ -47,7 +65,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 0;
 }
 
 .header-links {
@@ -63,26 +80,34 @@ a {
   color: #e06c2e;
 }
 
+.hero .container {
+  padding: 96px 20px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .hero h1 {
   font-size: 48px;
   font-weight: 900;
+  margin: 0;
+}
+
+.hero-img {
+  width: 50%;
+  height: 100%;
+  max-width: 640px;
+  flex: 1 0 auto;
 }
 
 .hero p {
   font-size: 18px;
-}
-
-button {
-  background-color: #e06c2e;
-  border-radius: 4px;
-  padding: 8px 16px;
-  color: #f9faf8;
-  cursor: pointer;
-  transition: background-color 0.2s;
-}
-
-button:hover {
-  background-color: #b75019;
 }
 
 .hero-btn {
