@@ -43,6 +43,18 @@ a {
   letter-spacing: 2px;
 }
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.header-links {
+  display: flex;
+  gap: 24px;
+}
+
 .header-links a {
   transition: color 0.2s;
 }
