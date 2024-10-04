@@ -43,6 +43,14 @@ a {
   letter-spacing: 2px;
 }
 
+.header-links a {
+  transition: color 0.2s;
+}
+
+.header-links a:hover {
+  color: #e06c2e;
+}
+
 .hero h1 {
   font-size: 48px;
   font-weight: 900;
@@ -53,10 +61,16 @@ a {
 }
 
 button {
-  background-color: #fc7931;
+  background-color: #e06c2e;
   border-radius: 4px;
   padding: 8px 16px;
   color: #f9faf8;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #b75019;
 }
 
 .hero-btn {
@@ -84,7 +98,7 @@ button {
 }
 
 .cta {
-  background-color: #fc7931;
+  background-color: #e06c2e;
   color: #f9faf8;
 }
 
