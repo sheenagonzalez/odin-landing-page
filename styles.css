@@ -55,7 +55,8 @@ img {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
   background-color: #1f2937;
   color: #f9faf8;
 }
@@ -204,4 +205,10 @@ img {
 
 .cta-btn {
   border: 1px solid #f9faf8;
+}
+
+.footer-text {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
 }
